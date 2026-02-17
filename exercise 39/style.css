@@ -1,0 +1,52 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center; /* Centers the card horizontally */
+    align-items: center;     /* Centers the card vertically */
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    width: 400px; /* This stops the "long line" issue */
+}
+
+h1 { font-size: 24px; color: #333; margin-bottom: 20px; text-align: center; }
+
+label { display: block; margin-top: 15px; font-weight: bold; color: #555; }
+
+select, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    background-color: #5cb85c; /* Green button from your video */
+    color: white;
+    border: none;
+    padding: 14px;
+    margin-top: 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.output-box {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 6px;
+    min-height: 40px;
+    border: 1px solid #eee;
+}
